@@ -3,7 +3,7 @@ import classes from './Home.module.css';
 
 const Home = () => {
     return (
-        <div>
+        <div className={classes.headerContainer}>
             <h1>Home Page</h1>
         </div>
     )
