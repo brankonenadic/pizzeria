@@ -7,7 +7,7 @@ const MenuItem = ({ image, name, price }) => {
     <div className={classes.menuItem}>
       <div style={{ backgroundImage: `url(${image})` }}> </div>
       <h1> {name} </h1>
-      <p> ${price} </p>
+      <p>Price:  ${price} </p>
     </div>
   );
 }

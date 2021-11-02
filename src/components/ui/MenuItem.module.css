@@ -27,9 +27,8 @@
     text-align: center;
 }
 .menuItem p {
-    margin-top: 20px;
-    padding: 20px;
-    text-align: end;
+    margin:  20px 0 0 20px ;
+    text-align: left;
 }
 @media only screen and (max-width: 800px) {
     .menuItem {
