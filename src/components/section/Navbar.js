@@ -24,9 +24,9 @@ const Navbar = () => {
                     <div className={!openNav ? classes.close : classes.open}>
                         <ul>
                             <li><NavLink to="/home" activeClassName={classes.active} onClick={closeMenu}>Home</NavLink></li>
+                            <li><NavLink to="/menu" activeClassName={classes.active} onClick={closeMenu}>Menu</NavLink></li>
                             <li><NavLink to="/about-us" activeClassName={classes.active} onClick={closeMenu}>About Us</NavLink></li>
                             <li><NavLink to="/contact" activeClassName={classes.active} onClick={closeMenu}>Contact Us</NavLink></li>
-                            <li><NavLink to="/menu" activeClassName={classes.active} onClick={closeMenu}>Menu</NavLink></li>
                         </ul>
                     </div>
                 </div>
