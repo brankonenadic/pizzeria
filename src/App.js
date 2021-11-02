@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
+import Footer from "./components/section/Footer";
 import Navbar from "./components/section/Navbar";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ function App() {
           <Menu />
         </Route>
       </Switch>
+      <Footer />
     </Fragment>
   );
 }
