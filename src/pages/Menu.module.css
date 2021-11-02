@@ -1,0 +1,38 @@
+.menu {
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .menuTitle {
+    margin-top: 150px;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.menuList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .menuList {
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menuList {
+        margin: 0;
+        place-items: center;
+        grid-template-columns: 1fr;
+    }
+}
